@@ -10,7 +10,7 @@ class Product(models.Model):
     def _compute_quantities_dict(
         self, lot_id, owner_id, package_id, from_date=False, to_date=False
     ):
-        res = super()._compute_quantities_dict(
+        res = super().sudo()._compute_quantities_dict(
             lot_id, owner_id, package_id, from_date, to_date
         )
         if self.env.context.get("website_sale_stock_available"):
