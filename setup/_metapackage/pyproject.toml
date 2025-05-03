@@ -1,13 +1,21 @@
 [project]
 name = "odoo-addons-oca-e-commerce"
-version = "18.0.20250206.0"
+version = "18.0.20250407.1"
 dependencies = [
     "odoo-addon-product_template_multi_link==18.0.*",
+    "odoo-addon-product_template_multi_link_date_span==18.0.*",
+    "odoo-addon-product_variant_multi_link==18.0.*",
     "odoo-addon-website_sale_b2x_alt_price==18.0.*",
+    "odoo-addon-website_sale_checkout_country_vat==18.0.*",
     "odoo-addon-website_sale_checkout_skip_payment==18.0.*",
+    "odoo-addon-website_sale_hide_empty_category==18.0.*",
+    "odoo-addon-website_sale_order_type==18.0.*",
     "odoo-addon-website_sale_product_attribute_value_filter_existing==18.0.*",
+    "odoo-addon-website_sale_product_brand==18.0.*",
     "odoo-addon-website_sale_product_detail_attribute_image==18.0.*",
     "odoo-addon-website_sale_product_reference_displayed==18.0.*",
+    "odoo-addon-website_sale_vat_required==18.0.*",
+    "odoo-addon-website_snippet_product_category==18.0.*",
 ]
 classifiers=[
     "Programming Language :: Python",
